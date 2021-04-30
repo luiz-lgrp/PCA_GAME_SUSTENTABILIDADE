@@ -24,7 +24,6 @@ gameLoop = True
 while gameLoop:
     for event in pygame.event.get():
 
-
         if event.type == pygame.QUIT:
             gameLoop = False
         if event.type == pygame.QUIT:
