@@ -5,5 +5,5 @@ Participandes:
 <ul>
 <li>Luiz Gustavo</li>
 <li>Yan Bernardo</li>
-<li>Yasmin</li>
+<li>Yasmin Guimarães</li>
 </ul>
