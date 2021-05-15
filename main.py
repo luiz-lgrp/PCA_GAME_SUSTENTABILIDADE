@@ -14,7 +14,7 @@ menu = pygame.image.load("assets/test-menu.png")
 Tela.blit(menu, (0, 0))
 
 '#colocando Musica'
-pygame.mixer.music.load("sons/music.wav")
+pygame.mixer.music.load("sons/happy.mp3")
 pygame.mixer.music.play(-1)
 
 '#Inicializando o pygame e criando a janela'
