@@ -1,3 +1,4 @@
+from end_game import Game_Over
 import pygame
 from classes import Obj
 
@@ -34,7 +35,7 @@ def start_game():
     beepRight = pygame.mixer.Sound('sons/acertos.wav')
     beepRight.set_volume(0.4)
     beepWrong = pygame.mixer.Sound('sons/erros.wav')
-    beepWrong.set_volume(0.4)
+    beepWrong.set_volume(2)
     pygame.mixer.music.load("sons/happy.mp3")
     pygame.mixer.music.set_volume(0.05)
     pygame.mixer.music.play(-1)
@@ -156,8 +157,7 @@ def start_game():
                 if drag:
                     lixos[id_lixo].move_obj(events)
         if acertos == len(lixos):
-            print('Fim de Jogo')
-            print(f'Voce errou {erros} vezes!')
+            Game_Over(erros, Tela)
             return False
         lixos[id_lixo].draw(Tela)
         pygame.display.update()
