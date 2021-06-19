@@ -16,7 +16,7 @@ def Game_Over(erros, Tela):
 
         for events in pygame.event.get():
             if events.type == pygame.QUIT:
-                return
+                break
             
             if events.type == pygame.MOUSEBUTTONDOWN:
                 print(pygame.mouse.get_pos())

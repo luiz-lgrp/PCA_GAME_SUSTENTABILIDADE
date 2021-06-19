@@ -158,6 +158,6 @@ def start_game():
                     lixos[id_lixo].move_obj(events)
         if acertos == len(lixos):
             Game_Over(erros, Tela)
-            return False
+            
         lixos[id_lixo].draw(Tela)
         pygame.display.update()
