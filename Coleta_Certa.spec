@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['D:\\Faculgado\\Caderno\\PCA INTRODUCAO AO DESENVOLVIMENTO DE SISTEMAS\\PCA_GAME_SUSTENTABILIDADE'],
+             pathex=['D:\\GitHub\\Caderno\\PCA INTRODUCAO AO DESENVOLVIMENTO DE SISTEMAS\\PCA_GAME_SUSTENTABILIDADE'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -31,4 +31,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True , icon='icon.ico')
+          console=False , icon='icon.ico')
